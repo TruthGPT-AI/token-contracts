@@ -1,0 +1,46 @@
+# Ignore build artifacts
+build/
+bin/
+
+# Ignore dependencies
+node_modules/
+
+# Ignore compiled contracts
+*.json
+*.abi
+*.bin
+*.bin-runtime
+
+# Ignore test coverage reports
+coverage/
+
+# Ignore environment-specific files
+.env
+
+# Ignore package lock files
+package-lock.json
+yarn.lock
+
+# Ignore development server logs
+server.log
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.iml
+
+# Ignore temporary files
+*.swp
+*.swo
+*.swn
+*.swm
+
+# Ignore backup files
+*~
+*#
+
+# Ignore compiled documentation
+docs/
+
+# Ignore any other files or directories that are not necessary for version control
+
